@@ -2,14 +2,14 @@ package com.example.amigosstudents.student;
 
 import java.time.LocalDate;
 
-public class student {
+public class Student {
     private long id;
     private String name;
     private String email;
     private LocalDate dob;
     private Integer age;
 
-    public student(long id,
+    public Student(long id,
                    String name,
                    String email,
                    LocalDate dob,
@@ -21,7 +21,7 @@ public class student {
         this.age = age;
     }
 
-    public student(String name,
+    public Student(String name,
                    String email,
                    LocalDate dob,
                    Integer age) {
@@ -73,7 +73,7 @@ public class student {
 
     @Override
     public String toString() {
-        return "student{" +
+        return "Student{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", email='" + email + '\'' +
