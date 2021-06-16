@@ -16,3 +16,5 @@ GRANT ALL PRIVILEGES ON DATABASE student TO postgres
 \c (connect to database)
 
 \d (list relations)
+
+\d student (list table student)
